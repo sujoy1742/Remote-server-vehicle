@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8" />
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<title>Server Controlled Car</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/scar.min.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/semantic.min.css') }}">
+		<script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static',filename='js/scar.min.js') }}"></script>
+		<script src="{{ url_for('static',filename='js/semantic.min.js') }}"></script>
+	</head>
+	<body>
+		<div class="pusher">
+			<div class="ui vertical masthead center aligned segment"> 
+	  			<div class="ui container">
+	    			<br>
+	        		<div class="ui segment">
+	        			<div class="ui huge header">Server Controlled Car</div>
+						<div class="ui small header" id="gamepadDisplay"></div>
+	            		<div class="ui left internal rail">
+	            			<div class="ui segment">
+	              				Speed :  <span id="speed"></span> <i class="large arrow icon" id="speed-indicator"></i>
+	            			</div>
+	          			</div>
+	          			<div class="ui right internal rail">
+	            			<div class="ui segment">
+	              			Steering : <span id="steering"></span> <i class="large arrow icon" id="steering-indicator"></i>
+	            			</div>
+	          			</div>
+	          			<br/>
+	          			<table class="ui table">
+			  				<tbody class="center aligned">
+			    				<tr>
+			        				<td id="leftindicator">Left Indicator</td>
+			        				<td id="light">Light</td>
+			        				<td id="horn">Horn</td>
+			        				<td id="rightindicator">Right Indicator</td>
+			    				</tr>
+							</tbody>
+						</table>
+						<!--<iframe src ="http://192.168.0.9/video.cgi" width="640" height="480">-->
+						<div class="ui embed" data-source="vimeo" data-id="125292332" data-placeholder="http://www.semantic-ui.com/images/vimeo-example.jpg"></div>
+	        		</div>
+				</div>
+	  		</div>
+		</div>
+	</body>
+</html>

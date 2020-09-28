@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Server Controlled Car</title>
+		<link rel="stylesheet" href="{{ url_for('static',filename='css/ratchet.min.css') }}">
+  		<script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+  		<script src="{{ url_for('static',filename='js/ratchet.min.js') }}"></script>
+  		<script src="{{ url_for('static',filename='js/scar.mobile.min.js') }}"></script>
+  		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+  	</head>
+	<body>
+  		<header class="bar bar-nav">
+  			<a class="btn btn-negative pull-left" onclick="left()" id="leftclass">Left</a>
+		    <a class="btn btn-negative pull-right" onclick="right()" id="rightclass">Right</a>
+    		<div class="segmented-control">
+		    	<a class="control-item">Steering : <span id="servo"></span></a>
+		    	<a class="control-item active">Server Controlled Car</a>
+		    	<a class="control-item">Speed : <span id="speed"></span></a>
+		  	</div>
+  		</header>
+  		<div class="content" id="video"></div>
+  		<nav class="bar bar-tab">
+    		<a class="tab-item badge badge-negative badge-inverted" onclick="carstart()" id="start1class">
+      			<span class="icon icon-close" id="startclass"></span>
+      			<span class="tab-label">Start</span>
+    		</a>
+    		<a class="tab-item badge badge-negative badge-inverted" onclick="horn()" id="horn1class">
+      			<span class="icon icon-sound4" id='hornclass'></span>
+      			<span class="tab-label">Horn</span>
+    		</a>
+    		<a class="tab-item badge badge-primary badge-inverted">
+      			<span class="tab-label">Manas Nikam</span>
+    		</a>
+    		<a class="tab-item badge badge-negative badge-inverted" onclick="light()" id="light1class">
+      			<span class="icon icon-star" id='lightclass'></span>
+      			<span class="tab-label">Light</span>
+    		</a>
+    		<a class="tab-item badge badge-positive badge-inverted" onclick="carstop()"  id="stop1class">
+     	 		<span class="icon icon-check" id="stopclass"></span>
+      			<span class="tab-label">Stop</span>
+    		</a>
+  		</nav>
+	</body>
+</html>
