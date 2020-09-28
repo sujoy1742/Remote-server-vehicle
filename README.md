@@ -15,7 +15,7 @@ The tool connects a remote 4 wheeled robot to the main server and transmits vide
 
 ## Contributors
 
-* Sujoy Ghosh
+* Sujoy Ghosh(sujoyghosh.rf.gd)
 * Manas Nikam
 * Meet Dayani
 
