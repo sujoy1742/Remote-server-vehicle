@@ -24,4 +24,4 @@ The tool connects a remote 4 wheeled robot to the main server and transmits vide
 Brinkley, C; Poirier, L; Antonio, D (2020) California City General Plan Database Mapping Tool. [http://critical-data-analysis.org/shiny/general-plan-map/R/](http://critical-data-analysis.org/shiny/general-plan-map/R/)
 [![DOI](https://zenodo.org/badge/238352230.svg)](https://zenodo.org/badge/latestdoi/238352230)
 
-S. Ghosh, S. Ghosh and M. Dayani, "Design of an Unlimited Range Web Browser Controlled Robot with Self-Adapting Fuzzy Logic Controller," 2018 Second International Conference on Inventive Communication and Computational Technologies (ICICCT), Coimbatore, 2018, pp. 1294-1300. [![DOI](https://zenodo.org/badge/238352230.svg)](https://doi.org/10.1109/ICICCT.2018.8473125)
+S. Ghosh, S. Ghosh and M. Dayani, "Design of an Unlimited Range Web Browser Controlled Robot with Self-Adapting Fuzzy Logic Controller," 2018 Second International Conference on Inventive Communication and Computational Technologies (ICICCT), Coimbatore, 2018, pp. 1294-1300. [![DOI]](https://doi.org/10.1109/ICICCT.2018.8473125)
